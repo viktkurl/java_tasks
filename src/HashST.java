@@ -154,7 +154,7 @@ public class HashST<Key, Value> {
                 String value = parts[1];
                 st.put(key, value);
             } else {
-                System.out.println("Линия в неправильном формате: " + line);
+                System.out.println("Строка в неправильном формате: " + line);
             }
         }
 

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class mergeSort {
+class MergeSort {
         public static void main(String[] args){
             int n; //размер массива
             int summ; //размер суммы

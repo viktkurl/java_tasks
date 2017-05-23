@@ -55,14 +55,14 @@ class Node
 }
 
 //Класс списка
-class linkedList
+class LinkedList
 {
     protected Node start;
     protected Node end ;
     public int size;
 
     //пустой конструктор
-    public linkedList()
+    public LinkedList()
     {
         start = null;
         end = null;
@@ -236,7 +236,7 @@ public class DoublyLinkedList
         Scanner scan = new Scanner(System.in);
 
         //Создание объекта класса linkedList
-        linkedList list = new linkedList();
+        LinkedList list = new LinkedList();
         System.out.println("Программа двусвязный список\n");
         char ch;//Переменная для обработки действий пользователя
         do
